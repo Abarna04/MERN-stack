@@ -1,0 +1,175 @@
+.container
+{
+  display: grid;
+  grid-template-areas:
+    'side center center center center menu'
+    'side center center center center menu'
+    'side center center center center menu';
+  gap: 10px 10px;
+  background-color:  rgba(210, 209, 209, 0.8);
+  padding: 40px;
+}
+
+.side{
+    padding: 30px;
+    background-color: #ffffff;
+    justify-content: start;
+    height: 1315px;
+    width: 305px;
+    border-radius: 25px;
+}
+.s1{
+  align-items: center;
+    text-align: center;
+}
+.s5{
+  background-color:rgb(255, 213, 0) ;
+  border: none;
+  padding: 10px 5px;
+  height: 40px; 
+  width: 200px;
+  border-radius: 25px;
+}
+.s5:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.home{
+    background-color: #ffffff;
+      height: 467.09px;
+      width: 972px;
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home-content{
+  float: left;
+}
+.home-image { 
+  width:326.39px; 
+  height: 459.09px; 
+  float: right;
+  box-sizing: border-box;
+}
+
+.education{
+  text-align: center;
+}
+.box{
+  display: grid;
+  grid-gap: 10px  10px;
+  grid-template-columns: auto auto auto;
+  padding: 5px 5px;
+}
+
+.box > div {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 10px;
+  height: 225px;
+  width: 305px;
+  border-radius: 25px;
+}
+
+.project{
+  text-align: center;
+}
+.pr{
+  display: grid;
+  grid-gap: 10px  10px;
+  grid-template-columns: auto ;
+  padding: 5px 5px;
+}
+
+.pr > div {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 20px 20px;
+  height: 150px;
+  width: 970px;
+  border-radius: 25px;
+}
+.course{
+  text-align: center;
+}
+.box{
+  display: grid;
+  grid-gap: 10px  10px;
+  grid-template-columns: auto auto auto;
+  padding: 5px 5px;
+}
+.box > div {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 10px;
+  height: 225px;
+  width: 305px;
+  border-radius: 25px;
+}
+.c{
+  color:rgb(255, 213, 0);
+  font-size:60px;
+}
+.footer{
+  display: grid;
+  grid-template-areas:
+    'message message message message contact contact'
+    'message message message message contact contact'
+    'message message message message contact contact';
+  padding: 20px;
+  gap: 5px;
+}
+form{
+  height: 665px;
+  width: 570px;
+  border-radius: 25px;
+  padding: 25px 25px;
+  background-color: #ffffff;
+}
+.contact
+{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 15px;
+  
+}
+.contact> div{
+  background-color: #ffffff;
+  height: 210px;
+  width: 370px; 
+  border-radius: 25px;
+}
+.country{
+  text-align: center; 
+  align-items: center; 
+  padding: 50px 20px;
+}
+.mail{
+  text-align: center; 
+  align-items: center; 
+  padding: 50px 20px;
+}
+.support{
+  text-align: center; 
+  align-items: center; 
+  padding: 50px 20px;
+}
+.menu{  
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  justify-content: end;
+  height: 1315px;
+  width: 108px;
+  border-radius: 25px;
+  padding: 200px 0;
+}
+a:hover i{
+  background-color: rgb(255, 213, 0);
+  border-radius: 50%;
+  width:50px; 
+  height: 50px; 
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    background-image: url('./contact.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 730px;
+    width: 1535px;
+    align-items: center;
+    
+}
+.c{
+    padding-top: 300px;
+    padding-left:300px;
+    text-align: center; 
+    align-items: center; 
+}
+
+.m-btn{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color:  rgb(133, 246, 252);
+    
+}

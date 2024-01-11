@@ -1,0 +1,27 @@
+*{
+    background-image: url('./todo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.todo{
+    padding: 200px 300px;
+}
+.t1{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+   
+}
+.t2{
+    font-size: 25px;
+}
+.b1{
+    height: 42px;
+    width: 50px;
+    font-size: 20px;
+    color: green;
+}
+.b2{
+    color: red;
+}
